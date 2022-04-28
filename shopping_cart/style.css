@@ -1,0 +1,113 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #F6FFA4;
+}
+.main-header{
+}
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0%;
+    padding: 0%;
+    background-color: #E6BA95;
+}
+.main-nav a{
+    font-size: 20px;
+    padding: 20px;
+    color: green;
+}
+.title-name{
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+/* Store Section */
+.container-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.shop-category{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #F7FF93;
+    padding: 10px;
+
+}
+.shop-items {
+    margin-top: 20px;
+}
+.shop-items span{
+    font-size: 1.5em;
+}
+.shop-items-image{
+    width: 350px;
+    height: 400px;
+}
+.shop-items-detail{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.shop-items-detail button{
+    background-color: #CDBE78;
+    border-radius: 8px;
+}
+.shop-items-detail button:hover{
+    background-color: #F7FF93;
+    color: black;
+}
+
+/* Cart Section */
+.cart-row-header{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    border: 1px solid;
+}
+.cart-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.cart-items-title{
+    margin-left: 30px; 
+}
+.cart-quantity-input{
+    width: 30px;
+}
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 180px;
+    padding: 20px;
+}
+.cart-total span{
+    margin-left: 20px;
+}
+.card-list{
+    padding-bottom: 5px;
+}
+.card-list button{
+    background-color: #CDBE78;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
+.card-list button:hover{
+    background-color: #F7FF93;
+    color: black;
+}
