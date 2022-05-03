@@ -7,6 +7,15 @@ var buttonStop = document.getElementById("stop");
 var buttonReset = document.getElementById("reset");
 var interval;
 
+
+
+// @task
+// function hello(){
+//   return "hello AS string";
+// }
+
+// let hello = ()=>"hello as String"
+
 buttonStart.addEventListener("click", () => {
   clearInterval(interval);
   interval = setInterval(setTime, 10);
